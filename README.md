@@ -1,1 +1,1 @@
-# CNS-Hackathon
+# Secure Chat
