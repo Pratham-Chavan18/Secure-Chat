@@ -1,2 +1,2 @@
-# Secure-Chat-Application
+# Secure-Chat
 
