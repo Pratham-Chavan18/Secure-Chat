@@ -72,7 +72,7 @@ class UserAuthenticationWindow:
         self.password_entry = Entry(self.root, show="*", width=30)
         self.password_entry.pack(pady=5)
 
-        # Buttons Frame
+        # Buttons
         button_frame = tk.Frame(self.root)
         button_frame.pack(pady=10)
 
@@ -255,3 +255,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
