@@ -8,7 +8,7 @@ from Crypto.Util.Padding import pad, unpad
 import json
 import hashlib
 import os
-
+# begins user management
 class UserManager:
     def __init__(self, filename='users.json'):
         self.filename = filename
@@ -247,7 +247,7 @@ def main():
     auth_window = UserAuthenticationWindow(user_manager)
     auth_window.root.mainloop()
 
-    # If authentication successful, open chat window
+    # If authentication successful
     if auth_window.username:
         chat_root = tk.Tk()
         app = MultiClientChatApp(chat_root, auth_window.username)
