@@ -247,7 +247,7 @@ def main():
     auth_window = UserAuthenticationWindow(user_manager)
     auth_window.root.mainloop()
 
-    # If authentication successful
+    # If Authentication Successful
     if auth_window.username:
         chat_root = tk.Tk()
         app = MultiClientChatApp(chat_root, auth_window.username)
