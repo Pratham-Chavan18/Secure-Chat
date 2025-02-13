@@ -1,2 +1,2 @@
 # Secure-Chat
-CNS Project
+CNS Project END to END Encryption
