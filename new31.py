@@ -8,7 +8,7 @@ from Crypto.Util.Padding import pad, unpad
 import json
 import hashlib
 import os
-# begins user management of tasks
+# begins user management of task
 class UserManager:
     def __init__(self, filename='users.json'):
         self.filename = filename
