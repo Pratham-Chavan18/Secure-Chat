@@ -10,7 +10,7 @@ import java.security.MessageDigest;
 
 class PasswordTools {
 
-//Hash the password and compare it to the hash stored in the file.
+//Hash the password and compare it to the hash stored in file.
     public static boolean validPassword(String password, Path path) {
         byte byteData[] = null;
         byte toCompare[] = null;
