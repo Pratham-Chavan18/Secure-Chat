@@ -28,7 +28,7 @@ class PasswordTools {
         return false;
     }
     
-    //Prompts the user to enter their password and then verif it.
+    //Prompts the user to enter their password and then verifies it.
     static void verifyPassword(Path path) {
         Scanner reader = new Scanner(System.in);
         System.out.println("What is your password?");
