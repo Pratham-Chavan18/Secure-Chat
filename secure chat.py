@@ -62,12 +62,12 @@ class UserAuthenticationWindow:
         self.root.title("User Authentication")
         self.root.geometry("300x300")
 
-        # Username 
+        # Username label and entry
         Label(self.root, text="Username:").pack(pady=(20, 5))
         self.username_entry = Entry(self.root, width=30)
         self.username_entry.pack(pady=5)
 
-        # Password Label and 
+        # Password Label and entry
         Label(self.root, text="Password:").pack(pady=(10, 5))
         self.password_entry = Entry(self.root, show="*", width=30)
         self.password_entry.pack(pady=5)
