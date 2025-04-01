@@ -31,7 +31,7 @@ class UserManager:
             json.dump(self.users, f, indent=4)
 
     def hash_password(self, password):
-        """Hash password using DES-256"""
+        """Hash password using SHA-256"""
         return hashlib.sha256(password.encode()).hexdigest()
 
     def register_user(self, username, password):
