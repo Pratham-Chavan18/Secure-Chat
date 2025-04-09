@@ -6,7 +6,7 @@ import java.util.*;
 import java.nio.file.*;
 import java.security.MessageDigest;
 
-//A helper file for comparing password entered with hashed password stored in (Encryption).
+//A helper file for comparing password entered with hashed password stored in secure (Encryption).
 
 class PasswordTools {
 
@@ -28,7 +28,7 @@ class PasswordTools {
         return false;
     }
     
-    //Prompts the user to enter their password and then it verifies it.
+    //Prompts the user to enter their password and then verifies it.
     static void verifyPassword(Path path) {
         Scanner reader = new Scanner(System.in);
         System.out.println("What is your password?");
