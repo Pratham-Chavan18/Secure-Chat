@@ -5,7 +5,7 @@ import java.util.*;
 import java.nio.file.*;
 import java.security.MessageDigest;
 
-//A helper file for comparing password entered with hashed password stored in secure (Encryption).
+//A helper file for comparing password entered with hashed password stored in secure(Encryption).
 
 class PasswordTools {
 
