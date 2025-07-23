@@ -244,7 +244,7 @@ def main():
     user_manager = UserManager()
 
     # Show authentication window
-    auth_window = UserAuthenticationWindow(user_manager)
+    auth_window = UserAuthentication(user_manager)
     auth_window.root.mainloop()
 
     # If authentication successful, open chat window
