@@ -159,7 +159,7 @@ class MultiClientChatApp:
         tk.Button(button_frame, text="Connect Client", command=self.start_client).pack(side=tk.LEFT, padx=5)
         tk.Button(button_frame, text="Send", command=self.send_message).pack(side=tk.LEFT, padx=5)
 
-        # Network and encryption variables
+        # Network and encryption variable
         self.socket = None
         self.des_encryption = None
 
